@@ -1,0 +1,23 @@
+.about_us {
+  background-color: white;
+}
+
+.about-us-cards {
+  color: purple;
+}
+
+.about-us-card-item {
+  /* max-width: 280px;
+  max-height: 250px; */
+  transition: 1s ease;
+  border: 1px solid rgb(234, 158, 234);
+  color: purple;
+}
+
+.about-us-card-item:hover {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  transition: 1s ease;
+  border: 1px solid purple;
+}

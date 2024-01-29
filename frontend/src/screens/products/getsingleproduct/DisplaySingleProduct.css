@@ -1,0 +1,20 @@
+.single-product-details {
+  /* background-color: red; */
+  border: 2px solid red;
+}
+
+.single-product-image {
+  height: 400px;
+  width: 400px;
+  margin: auto;
+}
+
+.single-product-details-delivery-features {
+  /* border: 1px solid pink; */
+}
+
+.single-product-details-delivery-features-icons {
+  background-color: rgb(225, 224, 224);
+  /* margin: auto; */
+  width: 45px;
+}

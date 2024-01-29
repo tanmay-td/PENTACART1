@@ -1,0 +1,41 @@
+.main-heading {
+  font-weight: bold;
+  font-size: 50px;
+  background-image: radial-gradient(
+    circle farthest-corner at 10.2% 55.8%,
+    rgba(252, 37, 103, 1) 0%,
+    rgba(250, 38, 151, 1) 46.2%,
+    rgba(186, 8, 181, 1) 90.1%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sub-heading {
+  ont-weight: bold;
+  /* font-size: 50px; */
+  background: linear-gradient(270deg, #ff00cc, #333399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.first-heading {
+  font-weight: bold;
+  font-size: 40px;
+  background: linear-gradient(270deg, #4158d0, #c850c0, #ffcc70);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.username-heading {
+  border-bottom: 2px solid rgb(219, 23, 219);
+  font-weight: bold;
+  font-size: 40px;
+  background: linear-gradient(270deg, #4158d0, #c850c0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.user-profile-link:hover {
+  opacity: 0.8;
+}

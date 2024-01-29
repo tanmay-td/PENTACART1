@@ -1,0 +1,42 @@
+.customer-homepage-main-container {
+  background-color: #f5f5fd;
+  border: 1px solid rgb(242, 207, 254);
+  border-radius: 20px;
+}
+
+.all_product_category_card {
+  color: black;
+  transition: 1s ease;
+  border-radius: 10px;
+}
+
+.all_product_category_card:hover {
+  color: rgb(3, 77, 129);
+  transition: 1s ease;
+  /* box-shadow: 2px 0px 7px 4px lightpink; */
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  border-radius: 0px;
+}
+
+.category-card-image {
+  max-width: 150px;
+  max-height: 160px;
+  /* opacity: 0.8; */
+  transition: 1s ease;
+  margin: auto;
+}
+
+.category-card-image:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transform: rotate(-5deg);
+  transition: 1s ease;
+}
+
+.customer-homepage-card-image {
+  /* max-height: 150px;
+  max-width: 200px; */
+}

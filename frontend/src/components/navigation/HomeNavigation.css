@@ -1,0 +1,81 @@
+.navigation-main-container {
+  background-color: #deb6ea;
+}
+
+.pentkart-heading {
+  color: black;
+  transition: all 0.3s;
+}
+
+#pentkart-logo-name {
+  font-weight: bold;
+  font-size: 20px;
+  background: linear-gradient(270deg, #3f5efb, #fc466b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* .pentkart-heading:hover {
+  color: rgb(243, 7, 125);
+  text-shadow: 0px 0px 1px rgb(243, 7, 125);
+  transition: all 0.3s;
+} */
+
+.pentagon-logo {
+  height: 40px;
+  border-radius: 50%;
+}
+
+.navigation-bar-items {
+  color: rgb(140, 31, 150);
+  transition: all 0.5s;
+}
+
+.navigation-bar-items:hover {
+  /* color: white; */
+  background: linear-gradient(270deg, #3f5efb, #fc466b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 1px solid rgb(117, 21, 161);
+  transition: all 0.5s;
+}
+
+.navigation-bar-items:active {
+  color: pink;
+}
+
+.accounts-link-items:hover {
+  /* border-bottom: 1px solid pink; */
+  transition: all 0.2s;
+}
+
+.accounts-link {
+  color: black;
+  transition: all 0.2s;
+}
+
+.accounts-link:hover {
+  color: rgb(255, 142, 160);
+  transition: all 0.2s;
+}
+
+.accounts-link-list-item {
+  transition: all 0.2s;
+}
+
+.accounts-link-list-item:hover {
+  transition: all 0.2s;
+  border-bottom: 1px solid #3f5efb;
+}
+
+/* Search button */
+/* .submit-button {
+  display: none;
+}
+
+Form.Control:not(:placeholder-shown) + .submit-button {
+  display: block;
+} */
+
+/* Placeholder  */
+

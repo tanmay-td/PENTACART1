@@ -1,0 +1,31 @@
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #f6d365;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right bottom,
+    rgb(185, 151, 244),
+    rgb(214, 159, 239)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right bottom,
+    rgb(167, 129, 199),
+    rgb(212, 155, 239)
+  );
+}
+
+.main-div {
+  height: 88vh;
+}
+
+.social-media-icon {
+  color: purple;
+  font-size: 18px;
+}
+
+.social-media-icon:hover {
+  color: rgb(159, 88, 192);
+}

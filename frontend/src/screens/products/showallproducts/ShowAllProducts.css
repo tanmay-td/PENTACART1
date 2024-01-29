@@ -1,0 +1,19 @@
+.show_product_table {
+  border: 1px solid pink;
+  /* border-radius: 100px; */
+  /* background-color: pink; */
+}
+
+.productImage {
+  width: 100px;
+  height: 90px;
+}
+
+.activePage {
+  color: black;
+  background-color: yellow;
+}
+
+.pagination-button Button {
+  margin-right: 10px;
+}

@@ -1,0 +1,42 @@
+.admin-homepage-card {
+  color: purple;
+  transition: all 0.3s ease;
+  border: 1px solid lightgoldenrodyellow;
+}
+
+.main-c {
+  background-color: purple;
+}
+
+.admin-homepage-card .admin-homepage-card-image {
+  border-radius: 15%;
+}
+
+.admin-homepage-card:hover {
+  box-shadow: 6px 6px 8px #d3d3d3;
+  max-height: 350px;
+  border: 1px solid pink;
+  color: deeppink;
+}
+
+.show-details-button {
+  font-weight: bold;
+  border-radius: 20px;
+  border: 1px solid rgba(226, 66, 249, 0.94);
+  /* font-size: 10px; */
+  background: linear-gradient(270deg, #3f5efb, #fc466b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.show-details-button:hover {
+  border-radius: 20px;
+  border: 1px solid rgba(226, 66, 249, 0.94);
+  /* font-size: 10px; */
+
+  background: linear-gradient(270deg, #4158d0, #c850c0, hotpink, purple);
+
+  opacity: 0.8;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

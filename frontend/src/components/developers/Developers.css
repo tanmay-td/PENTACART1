@@ -1,0 +1,95 @@
+.about-us-page {
+  background-color: #f9f9f9;
+  padding: 50px 50px 0 50px;
+}
+
+.header {
+  text-align: center;
+  background-color: #e8e3f6;
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #3d3d3d;
+}
+
+.header p {
+  font-size: 18px;
+  margin-bottom: 50px;
+  font-family: "Roboto", sans-serif;
+  /* color: #8d8d8d; */
+}
+
+.developers-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -20px;
+}
+
+.developer-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding: 30px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  width: 300px;
+}
+
+.developer-card:hover {
+  transform: translateY(-10px);
+}
+
+.developer-card img {
+  height: 100px;
+  margin-bottom: 20px;
+  width: 100px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.developer-card:hover img {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.developer-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #3d3d3d;
+}
+
+.developer-card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #8d8d8d;
+}
+
+@media (max-width: 768px) {
+  .about-us-page {
+    padding: 30px;
+  }
+
+  .header h1 {
+    font-size: 30px;
+  }
+
+  .header p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .developer-card {
+    margin: 20px 0;
+  }
+}

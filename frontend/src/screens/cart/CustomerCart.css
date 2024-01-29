@@ -1,0 +1,40 @@
+.parent-container {
+  background-color: rgb(251, 251, 251);
+  width: 90%;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.continue-shopping-link {
+  color: rgb(249, 56, 89);
+}
+
+.continue-shopping-link:hover {
+  transition: all 1s;
+  color: rgb(18, 174, 174);
+}
+
+.cart-items-container {
+  /* max-height: 190px; */
+  border: 1px solid pink;
+  border-radius: 30px;
+}
+
+.cart-items-container .cart-image {
+  max-width: 150px;
+  max-height: 130px;
+}
+
+.cart-items-container .quantity-input-field {
+  width: 15%;
+  /* text-align: center; */
+}
+
+.cart-button {
+  transition: all 0.3s;
+}
+
+.cart-items {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}

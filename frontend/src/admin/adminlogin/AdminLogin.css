@@ -1,0 +1,29 @@
+body {
+  /* color: white; */
+}
+
+.admin-page-brandName {
+  color: white;
+}
+
+.admin-page-brandName:hover {
+  color: aqua;
+}
+
+.link-item {
+  color: white;
+  text-decoration: none;
+}
+
+.link-item:hover {
+  color: aqua;
+}
+
+/* Condition display of button using CSS */
+/* .submit-button {
+  display: none;
+}
+
+Form.Control:not(:placeholder-shown) + .submit-button {
+  display: block;
+} */

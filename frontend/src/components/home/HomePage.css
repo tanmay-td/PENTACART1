@@ -1,0 +1,23 @@
+body {
+  background-color: #fffdfe;
+}
+
+.categorycard-row {
+  background-color: white;
+  border: 1px solid #deb6ea;
+  border-radius: 20px;
+}
+
+.category-card-section-heading{
+    border-bottom: 1px solid #ff97ac;
+}
+
+.footer_email_link {
+  color: purple;
+}
+
+.footer_email_link span:hover {
+  color: rgb(21, 181, 117);
+  border-bottom: 1px solid blueviolet;
+  transition: all 0.4s ease;
+}

@@ -1,0 +1,42 @@
+body {
+  /* background-image: url("https://image.shutterstock.com/image-vector/beautiful-wallpaper-hd-splash-watercolor-260nw-1731530431.jpg"); */
+  background-attachment: fixed;
+  background-size: cover;
+  /* color: white; */
+}
+
+.link-item {
+  color: green;
+  text-decoration: none;
+}
+
+.link-item:hover {
+  color: rgb(169, 181, 132);
+}
+
+.link-item-create {
+  color: blueviolet;
+}
+
+.link-item-create:hover {
+  border-bottom: 2px solid rgb(8, 99, 197);
+}
+
+input:invalid {
+  border: 1px solid rgb(255, 85, 85);
+  animation: shake 0.2s 2;
+}
+
+@keyframes shake {
+  25% {
+    translate: 6px 0;
+  }
+
+  50% {
+    translate: -6px 0;
+  }
+
+  75% {
+    translate: 6px 0;
+  }
+}
